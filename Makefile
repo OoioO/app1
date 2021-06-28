@@ -2,7 +2,7 @@ CGO_ENABLED=0
 GOOS=linux
 GOARCH=amd64
 TAG=1.0.0
-REPO=yourname/yourdockerhub
+REPO=kottmar/app1
 GO111MODULE=on
 
 GIT_TREE_STATE=$(shell (git status --porcelain | grep -q .) && echo dirty || echo clean)
